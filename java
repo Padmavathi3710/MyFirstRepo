@@ -30,3 +30,21 @@ public class HelloWorld {
 
 This is first code
 
+import java.util.Scanner; // Import Scanner class for user input
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Ask for the user's name
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+
+        // Greet the user
+        System.out.println("Hello, " + name + "! Welcome to Java programming.");
+
+        // Close the scanner
+        scanner.close();
+    }
+}
