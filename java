@@ -51,4 +51,37 @@ public class HelloWorld {
 
 This file has 2 codes
 
-Will add one more file
+Here’s a simple Java program to get you started. It demonstrates basic concepts like input, output, and a simple calculation:
+Javaimport java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+        // Create a Scanner object for user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt the user for two numbers
+        System.out.print("Enter the first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.print("Enter the second number: ");
+        double num2 = scanner.nextDouble();
+
+        // Perform addition
+        double sum = num1 + num2;
+
+        // Display the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
+
+How it works:
+
+The program uses the Scanner class to take input from the user.
+It reads two numbers, performs addition, and displays the result.
+The scanner.close() ensures the resource is released after use.
+
+Feel free to modify it to include other operations like subtraction, multiplication, or division!
+
