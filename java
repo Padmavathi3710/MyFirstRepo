@@ -48,3 +48,5 @@ public class HelloWorld {
         scanner.close();
     }
 }
+
+This file has 2 codes
